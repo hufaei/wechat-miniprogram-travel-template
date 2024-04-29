@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/login",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/gouwu",
+    "pages/mine",
+    "pages/blog",
+    "pages/recommend",
+    "pages/recommend1",
+    "pages/recommend2",
+    "pages/jiudian",
+    "pages/meishi",
+    "pages/zhoubian",
+    "pages/fuj"
+  ],
+  "tabBar": {
+    "custom": true,
+    "color": "#666666",
+    "selectedColor": "#ff0000",
+    "backgroundColor": "#000000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/gouwu",
+        "text": "推荐"
+      },
+      {
+        "pagePath": "pages/mine",
+        "text": "我的"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

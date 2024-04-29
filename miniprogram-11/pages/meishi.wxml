@@ -1,0 +1,2 @@
+<!--pages/meishi.wxml-->
+<web-view src="https://map.baidu.com/search/%E7%BE%8E%E9%A3%9F/@11550117.994146341,4285402.234999999,13.41z?querytype=s&da_src=shareurl&wd=%E7%BE%8E%E9%A3%9F&c=36&src=0&pn=0&sug=0&l=13&b=(11534560.146341465,4277047.094512195;11565675.841951218,4293757.3754878035)&from=webmap&biz_forward=%7B%22scaler%22:2,%22styles%22:%22pl%22%7D&device_ratio=2"/>

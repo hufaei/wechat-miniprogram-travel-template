@@ -1,0 +1,2 @@
+<!--pages/jiudian.wxml-->
+<web-view src="https://map.baidu.com/search/%E9%85%92%E5%BA%97/@11550117.994146341,4285402.234999999,13.41z?querytype=con&wd=%E9%85%92%E5%BA%97&c=36&provider=pc-aladin&pn=0&device_ratio=2&da_src=shareurl"/>

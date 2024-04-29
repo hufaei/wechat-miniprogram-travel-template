@@ -1,0 +1,10 @@
+<view class="tabbar" style="background-color: {{backgroundColor}};" id="tabbar">
+  <view class="{{'tab'}} {{selected == index ? 'beat' : ''}}" wx:for="{{list}}" wx:key="item" catchtap="switchTab" data-index="{{index}}" data-url="{{item.pagePath}}">
+    <view class="{{'tab-icon'}} {{item.center ? 'tab-icon-center' : ''}}" style="background-color: {{backgroundColor}};">
+      <image style="width:100%;height:100%;" src="{{selected == index ? item.iconActive : item.icon}}" mode="" />
+    </view>
+    <view style="font-size:24rpx;color:{{selected == index ? selectedColor : color}}">
+      {{item.text}}
+    </view>
+  </view>
+</view>

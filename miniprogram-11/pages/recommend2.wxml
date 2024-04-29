@@ -1,0 +1,13 @@
+<view class="index">
+    <view class="head">
+        <view class="title">老街</view>
+        <view class="desc">兰州老街坐落于兰州城市中心地带，是甘肃同元文化旅游发展有限公司发展的开放式、低密度的街区形态购物中心。
+兰州老街是甘肃省打造城市文化品牌的重大工程之一 ，项目以国家5A级旅游文化景区标准倾力打造，位于兰州市金融贸易中心、城市新中心七里河马滩片区，南邻城市中央大道西津西路，位于地铁1号线马滩站。
+兰州老街ALL PARK项目全长800米，是仿古精致低密度建筑，纵横交织的广场空间，为呈现不同的城市脉搏，引入潮流业态组合，国际大都会的休闲品位、跨界对撞的国潮品牌、林立的精致餐厅、时尚艺术及商业交融的独特氛围，畅享都市中心的街区。
+兰州老街ALL PARK助力非遗，联合甘肃省544项非遗资源，精选甘肃特色的工艺精品、本土美食、天工匠心产物等，为甘肃人民智慧提供最核心的展示舞台，助力文化自信。
+兰州老街ALL PARK于2020年起分阶段开业，汇聚一系列国际时尚品牌，Z时代的夜间名坊，买手创意店、年轻时尚星级餐厅以及国内外知名食府。</view>
+
+        <canvas canvas-id="lineCanvas" disable-scroll="true" class="canvas" bindtouchstart="touchHandler"></canvas>
+            </view>
+            <view bind:tap="gohere"><image style="width: 240rpx; height: 130rpx; display: inline-block; box-sizing: border-box; position: relative; left: 236rpx; top: 114rpx" src="/pages/image/gohere.png"/></view>
+</view>

@@ -1,0 +1,5 @@
+<view class="imageBox" wx:for="{{goodlist}}">
+    <view bind:tap="wotiao" data-src="{{item.redi}}">{{item.name}}</view>
+    <image src="{{item.url}}" bindtap="previewSqs" data-src="{{item.url}}"></image>
+</view>
+<view style="text-align: center;">暂无更多...</view>

@@ -1,0 +1,14 @@
+<view class="index">
+
+    <view class="head">
+        <view class="title">白塔山</view>
+        <view class="desc">白塔山公园，位于甘肃省兰州市城关区北部，因山头有一座白塔寺而得名。白塔与兰州黄河铁桥构成雄浑壮丽的画面，是甘肃省兰州市的象征之一。
+白塔始建于元朝，重建于明朝，寺平面呈长方形，白塔居中，塔身为八面七级，高约十七米，上有绿顶，下有圆基，通体洁白，挺拔秀丽。塔南是三大寺楼，北面是准提菩萨殿，东西各有配殿数间。
+白塔集精巧的建筑结构和精湛的雕刻艺术于一身，显示了古代劳动人民的聪明才智和艺术创造力，是中国古代建筑的杰作。登白塔山顶，可俯视兰州市容。</view>
+
+        <canvas canvas-id="lineCanvas" disable-scroll="true" class="canvas" bindtouchstart="touchHandler"></canvas>
+            </view>
+
+    <view bind:tap="gohere"><image style="width: 240rpx; height: 130rpx; display: inline-block; box-sizing: border-box; position: relative; left: 236rpx; top: 114rpx" src="/pages/image/gohere.png" /></view>
+    
+</view>

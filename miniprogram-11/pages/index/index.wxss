@@ -1,0 +1,54 @@
+.container {
+  width: 100%;
+  height: auto;
+  background-color: #f6f7f8;
+  padding: 0;
+} 
+/*  轮播图  */
+swiper{
+  height: 250px;
+  width: 100%;
+}
+swiper-item image{
+  height: 100%;
+  width: 100%;
+}
+.navs{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  /* flex-wrap: wrap; */
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+.nav-item{
+  width: 25%;
+  padding: 10px;
+  display: inline-block;
+  text-align: center;
+  box-sizing: border-box;
+}
+.iconTitle{
+  color: #666;
+  font-size: 14px;
+}
+.iconPic{
+  width: 88rpx;
+  height: 88rpx;
+}
+.content{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color:#666;
+  flex-direction: column;
+}
+.content1{
+  width: 100%;
+  height: 100%;
+}
+.content2{
+  width: 390px;
+  height: 130PX;
+}

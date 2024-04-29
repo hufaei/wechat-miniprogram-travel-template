@@ -1,0 +1,19 @@
+page {
+  background: #EFF4FF;
+}
+
+.imageBox {
+  margin: 3%;
+  background: white;
+  border-radius: 30rpx;
+  padding: 30rpx;
+  font-size: 28rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.imageBox image {
+  width: 100rpx;
+  height: 100rpx;
+}

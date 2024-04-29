@@ -1,0 +1,24 @@
+<!--pages/home/home.wxml-->
+<view class = "container">
+  <swiper indicator-dots='true' indicator-color='#fff' indicator-active-color='#87C6FF' autoplay = 'true' interval='2000' circular='true'>
+    <swiper-item wx:for = '{{banner}}' wx:key = 'index'>
+      <image src = '{{item}}'></image>
+    </swiper-item>
+  </swiper>
+  <view class = 'navs'>
+    <view wx:for = '{{icons}}' wx:key = 'index' class='nav-item'>
+      <image src = '{{item.imgurl}}' class='iconPic' bind:tap="zhenfenl" data-src="{{item.bindtap}}"></image>
+      <view class="iconTitle">{{item.name}}</view>
+    </view>
+  </view>
+  
+  <view class="content">
+    <view wx:for="{{content}}" wx:key="index" class="content1" bind:tap="changeingan">
+      <image src="{{item.url}}" class="content2"/>
+    </view>
+  </view>
+  <view wx:if="{{ingan}}"><web-view src="http://www.gansumuseum.com/"/></view>
+  
+  <VIew>暂无更多...</VIew>
+
+</view>

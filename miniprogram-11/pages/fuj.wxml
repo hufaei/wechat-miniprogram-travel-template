@@ -1,0 +1,2 @@
+<!--pages/fuj.wxml-->
+<web-view src="https://map.baidu.com/search/%E9%99%84%E4%BB%B6/@11550452.27,4274076.859999999,10z?querytype=s&da_src=shareurl&wd=%E9%99%84%E4%BB%B6&c=36&src=0&pn=0&sug=0&l=10&b=(11442036.27,4185500.8599999994;11658868.27,4362652.859999999)&from=webmap&biz_forward=%7B%22scaler%22:2,%22styles%22:%22pl%22%7D&device_ratio=2"/>
