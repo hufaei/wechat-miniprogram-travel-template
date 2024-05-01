@@ -7,7 +7,8 @@
 <h4>4.recommend三个page页面唤起地图的操作需要自己修改js文件，因为地理位置是静态写入的</h4>
 希望被用于参考的只有布局，其余的均为静态页面和跳转页面
 
-
+### 粗略展示图（反正只是模板，功能应需求自行开发）
+![怎么没了！](/images/)
 ### WeChat Mini Program Travel Interface Template
 Refer to the template for the tourism section revised by the CSDN blog and GitHub project
 <h4>1.The login interface is associated with the database. If not needed, you can delete the page or create a new login page yourself</h4>
