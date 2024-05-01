@@ -15,6 +15,7 @@
 </div>
 <div style="display:flex; align-items:center;">
 <img src="/images/96CDA25437AE24E4102C9065FE1D5F12.png" width="210px"> 
+<img src="/images/{A46D177A-5377-45b3-BB7F-E91E55C56E9A}.png" width="210px"> 
 <img src="/images/DEB98973AFA5395234F0F04797CAECAB.png" width="210px"> 
   </div>
 ### WeChat Mini Program Travel Interface Template
