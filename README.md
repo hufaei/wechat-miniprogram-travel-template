@@ -8,11 +8,15 @@
 希望被用于参考的只有布局，其余的均为静态页面和跳转页面
 
 ### 粗略展示图（反正只是模板，功能应需求自行开发）
-![怎么没了！](/images/52869613E0542BEF3F383EC16DB1B5BC.png)
-![怎么没了！](/images/4833DB0F34B9FA96CC0073DDB0AC67D6.png)
-![怎么没了！](/images/7E7D56452B01EF73D703296C3EB9C619.png)
-![怎么没了！](/images/96CDA25437AE24E4102C9065FE1D5F12.png)
-![怎么没了！](/images/DEB98973AFA5395234F0F04797CAECAB.png)
+<div style="display:flex; align-items:center;">
+<img src="/images/52869613E0542BEF3F383EC16DB1B5BC.png" width="210px"> 
+<img src="/images/4833DB0F34B9FA96CC0073DDB0AC67D6.png" width="210px"> 
+<img src="/images/7E7D56452B01EF73D703296C3EB9C619.png" width="210px"> 
+</div>
+<div style="display:flex; align-items:center;">
+<img src="/images/96CDA25437AE24E4102C9065FE1D5F12.png" width="210px"> 
+<img src="/images/DEB98973AFA5395234F0F04797CAECAB.png" width="210px"> 
+  </div>
 ### WeChat Mini Program Travel Interface Template
 Refer to the template for the tourism section revised by the CSDN blog and GitHub project
 <h4>1.The login interface is associated with the database. If not needed, you can delete the page or create a new login page yourself</h4>
@@ -21,3 +25,5 @@ Refer to the template for the tourism section revised by the CSDN blog and GitHu
 <h4>3.The query related to weather needs to be slightly modified by oneself. Apply for API and log in to the WeChat mini program official website to modify the accessible domain name</h4>
 <h4>4.The operation of calling up the map on the three recommended page pages requires modifying the JavaScript file yourself, as the geographic location is statically written</h4>
 I only hope to use the layout as a reference, while the rest are static pages and jump pages
+### 总之就是参考了很多（如下）
+
