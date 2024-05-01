@@ -26,9 +26,11 @@ Refer to the template for the tourism section revised by the CSDN blog and GitHu
 <h4>3.The query related to weather needs to be slightly modified by oneself. Apply for API and log in to the WeChat mini program official website to modify the accessible domain name</h4>
 <h4>4.The operation of calling up the map on the three recommended page pages requires modifying the JavaScript file yourself, as the geographic location is statically written</h4>
 I only hope to use the layout as a reference, while the rest are static pages and jump pages
-### 总之就是参考了一点（如下）】
-<a href="https://example.com/page](https://blog.csdn.net/m0_58974397/article/details/130863264">点击这里查看</a>
-<a href="https://codeload.github.com/Kathy0/Travel/zip/refs/heads/master">点击这里查看</a>
+### 总之就是参考了一点（如下）
+<div>
+<a href="https://blog.csdn.net/m0_58974397/article/details/130863264">csdn的一篇</a>
+<a href="https://codeload.github.com/Kathy0/Travel/zip/refs/heads/master">另外是github的一个项目</a>
+</div>
 
 
 
