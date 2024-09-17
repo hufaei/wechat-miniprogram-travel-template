@@ -7,7 +7,7 @@
 <h4>4.recommend三个page页面唤起地图的操作需要自己修改js文件，因为地理位置是静态写入的</h4>
 希望被用于参考的只有布局，其余的均为静态页面和跳转页面
 
-### 粗略展示图（反正只是模板，功能应需求自行开发）
+### 粗略展示图（反正只是模板，功能应需求自行开发）_图片看不见的挂个魔法就行了
 <div style="display:flex; align-items:center;">
 <img src="/images/52869613E0542BEF3F383EC16DB1B5BC.png" width="210px"> 
 <img src="/images/4833DB0F34B9FA96CC0073DDB0AC67D6.png" width="210px"> 
