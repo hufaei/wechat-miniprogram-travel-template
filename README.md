@@ -32,5 +32,7 @@ I only hope to use the layout as a reference, while the rest are static pages an
 <a href="https://codeload.github.com/Kathy0/Travel/zip/refs/heads/master">另外是github的一个项目</a>
 </div>
 
+### GitHub Actions 定时任务测试
+当前仓库包含两个最小化的 GitHub Actions schedule probe，用于观察 GitHub 是否会生成 `schedule` 事件运行记录。
 
 
