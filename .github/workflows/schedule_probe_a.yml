@@ -3,7 +3,7 @@ name: Schedule Probe A
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2,7,12,17,22,27,32,37,42,47,52,57 * * * *'
+    - cron: '1,6,11,16,21,26,31,36,41,46,51,56 * * * *'
 
 jobs:
   probe:
@@ -12,5 +12,6 @@ jobs:
       - name: No-op probe
         run: |
           echo "probe=a"
+          echo "version=2"
           echo "event=${{ github.event_name }}"
           date -u
