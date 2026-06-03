@@ -1,0 +1,16 @@
+name: Schedule Probe B
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '4,9,14,19,24,29,34,39,44,49,54,59 * * * *'
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: No-op probe
+        run: |
+          echo "probe=b"
+          echo "event=${{ github.event_name }}"
+          date -u
